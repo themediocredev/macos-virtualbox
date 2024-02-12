@@ -36,13 +36,13 @@ resolution="1280x800"            # VM display resolution
 DmiSystemFamily="MacBook Pro"          # Model Name
 DmiSystemProduct="MacBookPro11,2"      # Model Identifier
 DmiBIOSVersion="string:MBP7.89"        # Boot ROM Version
-DmiSystemSerial="NO_DEVICE_SN"         # Serial Number (system)
+DmiSystemSerial="C02Q90V5G86R"         # Serial Number (system)
 DmiSystemUuid="CAFECAFE-CAFE-CAFE-CAFE-DECAFFDECAFF" # Hardware UUID
-ROM='%aa*%bbg%cc%dd'                   # ROM identifier
+ROM='CC20E88F046A'                   # ROM identifier
 MLB="NO_LOGIC_BOARD_SN"                # MLB SN stored in NVRAM
 DmiBoardSerial="${MLB}"                # MLB SN stored in EFI
-DmiBoardProduct="Mac-3CBD00234E554E41" # Product (board) identifier
-SystemUUID="aabbccddeeff00112233445566778899" # System UUID
+DmiBoardProduct="C02535403QXFJQW1F" # Product (board) identifier
+SystemUUID="A1B1024D-A32A-44D7-90CB-DF64743A7C42" # System UUID
 
 # If the script is running on macOS and "get_parameters_from_macOS_host" is
 # set to "yes", the script will attempt to get the host's EFI and NVRAM
